@@ -2,7 +2,6 @@ from typing import Any, Dict, Optional
 
 from ntc_rosetta.helpers import json_helpers as jh
 from ntc_rosetta.translators.openconfig.ios.openconfig_if_ethernet import ethernet
-
 from yangify.translator import Translator, TranslatorData, unneeded
 
 

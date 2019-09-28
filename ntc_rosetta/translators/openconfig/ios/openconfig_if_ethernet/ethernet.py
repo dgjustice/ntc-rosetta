@@ -1,5 +1,4 @@
 from ntc_rosetta.translators.openconfig.ios.openconfig_vlan import switched_vlan
-
 from yangify.translator import Translator, TranslatorData
 
 

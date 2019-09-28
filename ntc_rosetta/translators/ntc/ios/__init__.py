@@ -1,5 +1,4 @@
 from ntc_rosetta.translators.ntc.ios.ntc_vlan.vlan import Vlan
-
 from yangify import translator
 from yangify.translator.config_tree import ConfigTree
 

@@ -1,5 +1,4 @@
 from ntc_rosetta.translators.openconfig.junos.openconfig_vlan import vlans
-
 from yangify.translator import Translator, TranslatorData, unneeded
 
 

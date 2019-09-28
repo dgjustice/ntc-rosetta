@@ -2,10 +2,9 @@ import json
 import pathlib
 from typing import Any, Dict, List, Tuple
 
-import ntc_rosetta
-
 import pytest
 
+import ntc_rosetta
 
 filters: Dict[str, Dict[str, List[str]]] = {
     "ntc-vlan": {"include": [], "exclude": []},
@@ -27,6 +26,14 @@ filters: Dict[str, Dict[str, List[str]]] = {
             "/openconfig-network-instance:network-instances/network-instance/name",
             "/openconfig-network-instance:network-instances/network-instance/config",
             "/openconfig-network-instance:network-instances/network-instance/vlans",
+        ],
+        "exclude": [],
+    },
+    "napalm-star-wars": {
+        "include": [
+            "/napalm-star-wars:universe/individual/name",
+            "/napalm-star-wars:universe/individual/age",
+            "/napalm-star-wars:universe/individual/affiliation",
         ],
         "exclude": [],
     },

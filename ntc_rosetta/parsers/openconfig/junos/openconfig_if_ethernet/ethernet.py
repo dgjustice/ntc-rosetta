@@ -1,5 +1,4 @@
 from ntc_rosetta.parsers.openconfig.junos.openconfig_vlan import switched_vlan
-
 from yangify.parser import Parser, ParserData
 
 

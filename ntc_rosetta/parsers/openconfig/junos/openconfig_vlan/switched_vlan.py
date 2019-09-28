@@ -1,7 +1,7 @@
 from typing import List, Optional, cast
 
-from yangify.parser import Parser, ParserData
 from ntc_rosetta.parsers.openconfig.junos.helpers import resolve_vlan_ids
+from yangify.parser import Parser, ParserData
 
 
 class SwitchedVlanConfig(Parser):

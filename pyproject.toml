@@ -16,6 +16,7 @@ jmespath = "^0.9.3"
 lxml = "^4.3"
 click = "^7.0"
 yangify = "^0.1.1"
+"ruamel.yaml" = "^0.16.5"
 
 [tool.poetry.dev-dependencies]
 pytest = "^4.2"

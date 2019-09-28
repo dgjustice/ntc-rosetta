@@ -1,22 +1,21 @@
 from ntc_rosetta.parsers.dummies.dummy.napalm_star_wars.star_wars import (
     Universe,
+    to_yaml,
 )
-
+from typing import Any, Dict
 from yangify import parser
-from yangify.parser.text_tree import parse_indented_config
+import logging
 
 
 class DummyParser(parser.RootParser):
     """
-    DummyParser expects as native data a dictionary where the `dev_conf`
+    DummyParser expects as native data a dictionary where the `universe`
     key is reserved for the device configuration.
     """
 
     class Yangify(parser.ParserData):
         def init(self) -> None:
-            self.root_native["dev_conf"] = parse_indented_config(
-                self.root_native["dev_conf"].splitlines()
-            )
-            self.native["dev_conf"] = self.root_native["dev_conf"]
+            self.root_native: Dict[str, Any] = to_yaml(self.root_native["dev_conf"])
+            self.native: Dict[str, Any] = self.root_native["universe"]
 
     universe = Universe

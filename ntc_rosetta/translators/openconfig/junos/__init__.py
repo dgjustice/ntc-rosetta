@@ -1,10 +1,8 @@
+from lxml import etree
 from ntc_rosetta.translators.openconfig.junos.openconfig_interfaces import interfaces
 from ntc_rosetta.translators.openconfig.junos.openconfig_network_instance import (
     network_instances,
 )
-
-from lxml import etree
-
 from yangify import translator
 
 

@@ -3,14 +3,11 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Any, Dict, List, Type, Union
 
-
 from ntc_rosetta import get_driver
 from ntc_rosetta.yang import get_data_model
-
 from yangify.linter import ContainerLinterResult, RootLinter, RootLinterResult
 from yangify.parser import Parser, RootParser
 from yangify.translator import RootTranslator, Translator
-
 from yangson.schemanode import (
     GroupNode,
     LeafListNode,

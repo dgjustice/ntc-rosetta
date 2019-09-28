@@ -1,7 +1,6 @@
 from typing import List, Optional, cast
 
 from ntc_rosetta.helpers import json_helpers as jh
-
 from yangify.parser import Parser, ParserData
 
 

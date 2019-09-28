@@ -1,10 +1,8 @@
 from typing import Any, Dict, List, Optional
 
 from ntc_rosetta.yang import get_data_model
-
 from yangify.parser import RootParser
 from yangify.translator import RootTranslator
-
 from yangson.datamodel import DataModel
 from yangson.instance import RootNode
 from yangson.instvalue import Value

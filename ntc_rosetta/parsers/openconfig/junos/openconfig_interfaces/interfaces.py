@@ -1,7 +1,6 @@
 from typing import Any, Dict, Iterator, Optional, Tuple, cast
 
 from ntc_rosetta.parsers.openconfig.junos.openconfig_if_ethernet import ethernet
-
 from yangify.parser import Parser, ParserData
 
 

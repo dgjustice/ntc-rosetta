@@ -1,11 +1,8 @@
 from typing import List, Optional
 
-from ntc_rosetta.helpers import xml_helpers as xh
-
 from lxml import etree
-
+from ntc_rosetta.helpers import xml_helpers as xh
 from yangify.translator import Translator, TranslatorData
-
 from yangson.instance import NonexistentInstance
 
 

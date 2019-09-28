@@ -49,10 +49,9 @@ def _get_ntc_data_model() -> DataModel:
 def _get_napalm_star_wars_data_model() -> DataModel:
     base = pathlib.Path(__file__).parent
     lib = f"{base}/dummies/models/napalm-star-wars-library.json"
-    path = [
-        base.joinpath("dummies/models/napalm-star-wars"),
-    ]
+    path = [base.joinpath("dummies/models/napalm-star-wars")]
     return DataModel.from_file(lib, path)
+
 
 def get_data_model(model: str = "openconfig") -> DataModel:
     """

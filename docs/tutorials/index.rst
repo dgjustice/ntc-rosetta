@@ -12,4 +12,4 @@ Tutorials
    junos_parsing.ipynb
    junos_translate.ipynb
    rosetta_and_yangson_walkthrough.ipynb
-
+   YANG-for-dummies.ipynb

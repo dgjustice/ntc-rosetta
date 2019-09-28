@@ -6,9 +6,7 @@ from typing import Tuple
 import click
 
 from ntc_rosetta.yang import get_data_model
-
 from yangify import linter
-
 
 ERROR_CODE_HELP = "\n".join(
     [f"  - {k}: {v[1]}\n" for k, v, in linter.MessageType.help().items()]

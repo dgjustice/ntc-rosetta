@@ -1,0 +1,27 @@
+{
+    "napalm-star-wars:universe": {
+        "individual": [
+            {
+                "name": "Obi-Wan Kenobi",
+                "age": 57,
+                "affiliation": "napalm-star-wars:REBEL_ALLIANCE"
+            },
+            {
+                "name": "Luke Skywalker",
+                "age": 19,
+                "affiliation": "napalm-star-wars:REBEL_ALLIANCE"
+            },
+            {
+                "name": "Darth Vader",
+                "age": 42,
+                "affiliation": "napalm-star-wars:EMPIRE"
+            },
+            {
+                "name": "Yoda",
+                "age": 896,
+                "affiliation": "napalm-star-wars:REBEL_ALLIANCE"
+            }
+        ]
+    }
+}
+

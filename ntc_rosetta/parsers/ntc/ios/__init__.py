@@ -1,5 +1,4 @@
 from ntc_rosetta.parsers.ntc.ios.ntc_vlan.vlan import Vlan
-
 from yangify import parser
 from yangify.parser.text_tree import parse_indented_config
 

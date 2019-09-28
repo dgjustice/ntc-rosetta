@@ -1,10 +1,8 @@
 from typing import Optional
 
 from lxml import etree
-
 from ntc_rosetta.helpers import xml_helpers as xh
 from ntc_rosetta.translators.openconfig.junos.openconfig_if_ethernet import ethernet
-
 from yangify.translator import Translator, TranslatorData, unneeded
 
 

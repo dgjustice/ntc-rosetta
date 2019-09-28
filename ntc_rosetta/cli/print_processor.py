@@ -4,7 +4,6 @@ import click
 
 from ntc_rosetta import get_driver
 from ntc_rosetta.yang import get_data_model
-
 from yangify import linter
 
 

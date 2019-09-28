@@ -1,7 +1,6 @@
 from typing import Optional
 
 from lxml import etree
-
 from yangify.translator import Translator, TranslatorData, unneeded
 
 

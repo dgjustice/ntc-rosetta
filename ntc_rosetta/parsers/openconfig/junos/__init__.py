@@ -1,12 +1,10 @@
 from lxml import etree
-
 from ntc_rosetta.parsers.openconfig.junos.openconfig_interfaces.interfaces import (
     Interfaces,
 )
 from ntc_rosetta.parsers.openconfig.junos.openconfig_network_instance.network_instances import (
     NetworkInstances,
 )
-
 from yangify import parser
 
 

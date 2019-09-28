@@ -1,7 +1,6 @@
 from typing import Any, Dict, Iterator, Tuple, cast
 
 from ntc_rosetta.parsers.openconfig.ios.openconfig_vlan import vlans
-
 from yangify.parser import Parser, ParserData
 
 
