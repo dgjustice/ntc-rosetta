@@ -14,7 +14,7 @@ def to_yaml(config: str) -> Dict[str, Any]:
 
 class IndividualData(Parser):
     class Yangify(ParserData):
-        path = "/napalm-star-wars:individual"
+        path = "/napalm-star-wars:universe/individual"
 
         def extract_elements(self) -> Iterator[Tuple[str, Dict[str, Any]]]:
             for person in jh.query("individuals", self.native, default=[]):

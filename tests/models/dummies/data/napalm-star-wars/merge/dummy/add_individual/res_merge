@@ -1,0 +1,6 @@
+---
+universe:
+  individuals:
+  - name: Luke Skywalker
+    age: 62
+    affiliation: napalm-star-wars: REBEL_ALLIANCE

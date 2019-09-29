@@ -1,0 +1,11 @@
+{
+  "napalm-star-wars:universe": {
+    "individual": [
+      {
+        "name": "Luke Skywalker",
+        "age": 62,
+        "affiliation": "napalm-star-wars:REBEL_ALLIANCE"
+      }
+    ]
+  }
+}

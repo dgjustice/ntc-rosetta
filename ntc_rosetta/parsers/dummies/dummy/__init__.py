@@ -4,7 +4,6 @@ from ntc_rosetta.parsers.dummies.dummy.napalm_star_wars.star_wars import (
 )
 from typing import Any, Dict
 from yangify import parser
-import logging
 
 
 class DummyParser(parser.RootParser):

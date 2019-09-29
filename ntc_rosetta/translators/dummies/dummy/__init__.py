@@ -7,9 +7,11 @@ class DummyTranslator(translator.RootTranslator):
     class Yangify(translator.TranslatorData):
         def init(self) -> None:
             self.root_result = ConfigTree()
+            self.root_result.add_command("---")
             self.result = self.root_result
-            self.result.add_command("---")
-            self.result.add_command("universe:")
+
+        def pre_process(self) -> None:
+            self.root_result.new_section("universe:")
 
         def post(self) -> None:
             self.root_result = self.root_result.to_string()

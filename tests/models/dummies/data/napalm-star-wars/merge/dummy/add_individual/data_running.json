@@ -1,0 +1,11 @@
+{
+  "napalm-star-wars:universe": {
+    "individual": [
+      {
+        "name": "Obi-Wan Kenobi",
+        "age": 57,
+        "affiliation": "napalm-star-wars:REBEL_ALLIANCE"
+      }
+    ]
+  }
+}
